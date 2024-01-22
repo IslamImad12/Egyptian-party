@@ -1,0 +1,216 @@
+/* General classes*/
+.w-fit {
+    width: fit-content;
+}
+.max-w-500 {
+    max-width: 500px;
+}
+.text-gray {
+    color: gray;
+}
+@media screen and (min-width:992px) {
+    .w-lg-75 {
+        width: 75%;
+    }
+}
+/* */
+header {
+    height: 100vh;
+    background-image: url(WhatsApp\ Image\ 2024-01-19\ at\ 3.08.59\ AM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.head {
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    z-index: 9;
+}
+.sidenav {
+    background-color: black;
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: none;
+    z-index: 999;
+}
+.close {
+    display: block;
+    z-index: 99999;
+    position: fixed;
+    top: 50%;
+    font-size: 20px;
+}
+.close i {
+    color: white;
+}
+.sideContent {
+    position: relative;
+}
+.sidenav a {
+    color: white;
+    text-decoration: none;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    padding: 7px 68px;
+    font-size: 21px;
+    transition: 0.2s;
+}
+.sidenav a:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: orange;
+}
+.main-title {
+    color: white;
+    font-size: 60px;
+}
+.description {
+    color: white;
+    font-size: 20px;
+}
+#home .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.2);
+}
+
+#Duration {
+
+}
+#Details {
+    height: 50vh;
+    background-image: url(invitation-2508607__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#Details .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.5);
+} 
+.date .date-border {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 5%;
+    /* margin: ; */
+}
+#contact {
+    height: 110vh;
+    background-color: #ffffff;
+
+}
+.icons i {
+    margin: 7px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius:50% ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.icons .twitter:hover {
+    background-color: #1D9BF0;
+    color: white;
+}
+.icons .facebook:hover {
+    background-color: #0165E1;
+    color: white;
+}
+.icons .instagram:hover {
+    background-color: #E1306C;
+    color: white;
+}
+.icons .dribble:hover {
+    background-color: #74539d;
+    color: white;
+}
+.icons .pinterest:hover {
+    background-color: #D62E33;
+    color: white;
+}
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    background-color: #D62E33;
+    z-index: 99999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.spinner {
+    margin: 100px auto 0;
+    width: 70px;
+    text-align: center;
+
+  }
+  
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+  
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+}
+.singer-content {
+    background-color: #ccc;
+    padding: 10px;
+}
+.singer {
+    width: 100%;
+}
+.singerDiv {
+    width: 30%;
+
+}
